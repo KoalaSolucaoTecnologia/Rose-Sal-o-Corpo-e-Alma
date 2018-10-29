@@ -1,65 +1,122 @@
 <html lang="pt-br">
 <head>
-    <link rel="Shortcut Icon" href="imagens/favicon rose">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animate.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Salão de beleza rose</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Rose Salão Corpo e Alma</title>
 </head>
-  <body>
-    <div class="corpo rosa">
-      <header class="conteudo">
-        <a href="index.html" title=" Salão Rose Corpo e alma">
-        <img src="imagens/logo_corpo_e_alma_aprovado.png" alt="Logo salão rose corpo e alma" title="Salão Rose corpo e alma" class="logo animated pulse"/>
-        </a>
-        <nav class="menu bordas">
-          <ul>
-            <li><a href="index.html" title="Inicio" target="__blank"> Inicio</a></li>
-            <li><a href="#" title="Serviços oferecidos"> Serviços</a></li>
-            <li><a href="#" title="Entre em contato"> Contatos</a></li>
-          </ul>          
-        </nav>
-      </header>
-      <div class="corpo preto">
-        <div class="conteudo">
-          <div class="slide">
-            <img src="imagens/dicas_de_beleza_e_maquiagem-758x381.jpg" alt="imagem 1" title="imagem 1" class="slideImagem">
-            <img src="imagens/dia-da-mulher-41.jpg" alt="imagem 2" title="imagem 2" class="slideImagem">
-            <img src="imagens/logo_corpo_e_alma_nome.png" alt="imagem 3" title="imagem 3" class="slideImagem">
-          </div>
+<body>
+    <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand h1 mb-0 " href="#"><img src="imagens/logo_corpo_e_alma_aprovado.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav ml-auto">
+                    <il class="navbar-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </il>
+                    <il class="navbar-item">
+                        <a class="nav-link" href="#">Serviços e Produtos</a>
+                    </il>
+                    <il class="navbar-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </il>
+
+                </ul>
+            </div>
         </div>
-      </div>
+    </nav>
+
+    <!--Carousel de imagens -->
+    <div id="carouselSite" class="carousel slide " data-ride="carousel">
+            <ol class="carousel-indicators">
+                    <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselSite" data-slide-to="1"></li>
+                    <li data-target="#carouselSite" data-slide-to="2"></li>
+                    <li data-target="#carouselSite" data-slide-to="3"></li>
+                    <li data-target="#carouselSite" data-slide-to="4"></li>
+                  </ol>
+        
+        <div class="carousel-inner">
+
+           <div class="carousel-item active">
+               <img src="imagens/beauty-parlor-3241097_1280.jpg"  class="img-fluid d-block w-100">
+           </div> 
+           <div class="carousel-item">
+                <img src="imagens/estetica-2901096_1280.jpg" class="img-fluid d-block w-100">
+           </div>
+            
+            <div class="carousel-item">
+                <img src="imagens/fingernails-259972_1280.jpg" class="img-fluid d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/makeup-2676392_1280.jpg" class="img-fluid d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="imagens/woman-3288365_1280.jpg" class="img-fluid d-block w-100">
+            </div>
+       
+        </div>
+        <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Proximo</span>
+        </a>
     </div>
-      <section class="corpo">
-        <div class="conteudo">
-            <h1 class="tituloDestaque ">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, repellat eos dolor nam cupiditate, velit rem rerum culpa similique consectetur accusantium mollitia, odit dignissimos deleniti. Aut fugiat molestias perferendis amet?. </p>
-                  
-            <article class="sombra caixa caixa4 bordas ">
-              <img src="imagens/haircut-834280_1920.jpg" alt="haircut-834280_1920" title="haircut">
-              <h2 class="titulo textoVermelho">cabelo</h2>
-              <p>kdsgksdlgjsgj dsgjgçgj dgjdsgçogjewgo fbjd lçdjgslçg jsgljsdçgl djdlçgjd</p>
-              <a href="#contato" class= "btn btnMedio btnVermelho bordas" title="Agendar Cabelo">Agendar</a>
-            </article>
-            <article class="sombra caixa caixa4 bordas">
-                <img src="imagens/spa-3184610_1920.jpg" alt="spa" title="spa">
-                <h2 class="titulo textoAzul">Massagem</h2>
-                <p>Lorem ipsum dolor sit amet ciendis voluptatibus, a quidem adipiscia.</p>
-                <a href="#contato" class="btn btnMedio btnAzul bordas" title="Agendar Massagem">Agendar</a>
-            </article>
-            <article class="sombra caixa caixa4 bordas">
-                <img src="imagens/nail-art-2688565_1920.jpg" alt="nail" title="nail">
-                <h2 class="titulo textoLilas">mão</h2>
-                <p>Lorem ipsum dolor sit amet is reiciendis voluptatibus, a quidem adipiscia.</p>
-                <a href="www.google.com.br" class="btn btnMedio btnLilas bordas" title="Agendar Mão">Agendar</a>
-            </article>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center mt-5">
+               <h1 class="display-3">Titulo do lorem </h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, amet dicta adipisci accusamus nulla natus, officia modi, quae laudantium magnam repellendus quo? Dolores voluptatibus id sint, in cum repellat harum!</p>
 
-          </div>
-      </section>
-      
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-sm-4 mb-2">
+                <div class="card">
+                    <div class="card-body">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    </div>    
+                </div>
+            </div> 
+
+        <div class="col-sm-4 mb-2">
+            <div class="card">
+                <div class="card-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                </div>    
+            </div>
+        </div>
+        <div class="col-sm-4 mb-2">
+            <div class="card">
+                <div class="card-body">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                </div>    
+            </div>
+        </div>
+        </div>
+    </div>
 
 
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
