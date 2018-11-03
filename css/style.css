@@ -4,6 +4,12 @@
 .bg-rosa {
     background-color: #91007b;
 }
+.bg-rosaClaro{
+    background-color: #ffa3f1;
+}
+.bg-rosaDegrade {
+    background:linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(145,0,123,1) 63%);
+}
 .btn-rosa {
     background-color: #91007b;
 }
