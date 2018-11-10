@@ -16,6 +16,14 @@
 .btn-rosaClaro {
     background-color: #dab5d4
 }
+.btn-azul {
+    background-color: #5a45b5;
+    color: white
+}
+.btn-azul:hover{
+    background-color: #8378b3;
+    color: white
+}
 .textPrimary {
     color: #91007b
 }
